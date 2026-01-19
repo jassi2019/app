@@ -1,0 +1,40 @@
+const ROLES = Object.freeze({
+  ADMIN: "ADMIN",
+  USER: "USER",
+});
+
+const PAYMENT_STATUSES = Object.freeze({
+  PENDING: "PENDING",
+  SUCCESS: "SUCCESS",
+  FAILED: "FAILED",
+});
+
+const SERVICE_TYPES = Object.freeze({
+  PREMIUM: "PREMIUM",
+  FREE: "FREE",
+});
+
+const REGISTRATION_SOURCES = Object.freeze({
+  APP: "APP",
+  GOOGLE: "GOOGLE",
+});
+
+const OTP_TYPES = Object.freeze({
+  REGISTRATION: "REGISTRATION",
+  PASSWORD_RESET: "PASSWORD_RESET",
+});
+
+const PAYMENT_PLATFORMS = Object.freeze({
+  RAZORPAY: "RAZORPAY",
+  STRIPE: "STRIPE",
+  CASHFREE: "CASHFREE",
+});
+
+module.exports = {
+  ROLES,
+  PAYMENT_STATUSES,
+  SERVICE_TYPES,
+  REGISTRATION_SOURCES,
+  OTP_TYPES,
+  PAYMENT_PLATFORMS,
+};
